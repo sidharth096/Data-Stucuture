@@ -1,0 +1,9 @@
+arr=[2,1,3,5,2,3]
+for(i=0;i<arr.length-1;i++){
+    for(j=i+1;j<arr.length;j++){
+        if(arr[i]>arr[j]){
+        [arr[i],arr[j]]=[arr[j],arr[i]]
+        }
+    }
+}
+console.log(arr);
